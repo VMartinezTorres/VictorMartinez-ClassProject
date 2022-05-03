@@ -7,3 +7,5 @@ import { MotionPathHelper } from "gsap/MotionPathHelper";
 
 //register all plugins
 gsap.registerPlugin(GSDevTools, MotionPathPlugin, DrawSVGPlugin, MotionPathHelper);
+
+const mainTL = gsap.timeline();
